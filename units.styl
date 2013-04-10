@@ -1,14 +1,110 @@
-@import 'unit/margin'
-@import 'unit/padding'
-@import 'unit/width'
-@import 'unit/height'
-@import 'unit/text'
 @import 'unit/color'
-@import 'unit/font'
 @import 'unit/display'
-@import 'unit/background'
 @import 'unit/list'
 @import 'unit/table'
+@import 'unit/float'
+@import 'unit/overflow'
+
+// width
+@import 'unit/width/width'
+@import 'unit/width/width-percentage'
+
+// height
+@import 'unit/height/height'
+@import 'unit/height/height-percentage'
+
+// margin
+@import 'unit/margin/margin'
+@import 'unit/margin/margin-percentage'
+@import 'unit/margin/top'
+@import 'unit/margin/top-negative'
+@import 'unit/margin/left'
+@import 'unit/margin/left-percentage'
+@import 'unit/margin/right'
+@import 'unit/margin/right-percentage'
+@import 'unit/margin/bottom'
+
+// padding
+@import 'unit/padding/padding'
+@import 'unit/padding/padding-percentage'
+@import 'unit/padding/top'
+@import 'unit/padding/left'
+@import 'unit/padding/left-percentage'
+@import 'unit/padding/right'
+@import 'unit/padding/bottom'
+
+// border
+@import 'unit/border/border'
+@import 'unit/border/width'
+@import 'unit/border/style'
+@import 'unit/border/color'
+@import 'unit/border/radius'
+
+// border-top
+@import 'unit/border/top'
+@import 'unit/border/top/width'
+@import 'unit/border/top/style'
+@import 'unit/border/top/color'
+@import 'unit/border/top/radius'
+@import 'unit/border/top/left-radius'
+
+// border-right
+@import 'unit/border/right'
+@import 'unit/border/right/width'
+@import 'unit/border/right/style'
+@import 'unit/border/right/color'
+@import 'unit/border/right/radius'
+
+// border-bottom
+@import 'unit/border/bottom'
+@import 'unit/border/bottom/width'
+@import 'unit/border/bottom/style'
+@import 'unit/border/bottom/color'
+@import 'unit/border/bottom/radius'
+
+// border-left
+@import 'unit/border/left'
+@import 'unit/border/left/width'
+@import 'unit/border/left/style'
+@import 'unit/border/left/color'
+@import 'unit/border/left/radius'
+
+// background
+@import 'unit/background/color'
+
+// list-style
+@import 'unit/list-style/position'
+
+// text
+@import 'unit/text/align'
+@import 'unit/text/shadow'
+@import 'unit/text/transform'
+@import 'unit/text/wrap'
+
+// font
+@import 'unit/font/family'
+@import 'unit/font/size'
+@import 'unit/font/style'
+@import 'unit/font/weight'
+
+// line-height
+@import 'unit/line-height'
+
+// left
+@import 'unit/left'
+@import 'unit/left-negative'
+
+// right
+@import 'unit/right'
+
+// position
+@import 'unit/position'
+
+// direction
+@import 'unit/direction'
+
+// vertical-align
+@import 'unit/vertical-align'
 
 .left
   float left
@@ -34,3 +130,16 @@
 
 .s
   display inline
+
+.bold
+  font-weight bold
+
+.normal
+  font-weight normal
+
+.none, .hidden
+  display none
+
+.transparent
+  opacity 0
+
