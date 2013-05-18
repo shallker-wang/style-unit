@@ -1,4 +1,4 @@
 style-unit
 ==========
 
-Code HTML with Efficiency.
+Style HTML with Efficiency.
