@@ -3500,8 +3500,8 @@
 .word-wrap-break-word{word-wrap:break-word}
 .box-sizing-content-box{box-sizing:content-box}
 .box-sizing-border-box{box-sizing:border-box}
-.line,.bottom-line{border-bottom:1px solid #000}
-.line.gray,.border-bottom.gray{border-color:#808080}
+.line{border-bottom:1px solid #000}
+.line.gray{border-color:#808080}
 .cols{overflow:hidden;clear:both}
 .col{float:left}
 .height-ghost{height:100%;width:.00001%;display:inline-block;vertical-align:middle}
