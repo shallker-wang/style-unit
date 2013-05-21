@@ -1,9 +1,9 @@
 @import '../colors'
 
-// border-color(colors)
-//   for obj in colors
-//     for ob in obj
-//       .{'border-color-'+ob[0]}
-//         border-color ob[1]
+border-color-mixin(colors)
+  for obj in colors
+    for ob in obj
+      .{'border-color-'+ob[0]}
+        border-color ob[1]
 
-// border-color(colors)
+border-color-mixin(colors)

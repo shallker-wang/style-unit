@@ -1,9 +1,9 @@
 @import '../colors'
 
-background-color(colors)
+background-color-mixin(colors)
   for obj in colors
     for ob in obj
       .{'background-color-'+ob[0]}
         background-color ob[1]
 
-background-color(colors)
+background-color-mixin(colors)
