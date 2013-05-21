@@ -1,0 +1,19 @@
+.bottom-auto
+  bottom auto
+
+.bottom-inherit
+  bottom inherit
+
+bottom-pixel(range)
+  for i in range
+    .{'bottom-'+i}
+      bottom i * 1px
+
+bottom-pixel(0..100)
+
+bottom-percentage(range)
+  for i in range
+    .{'bottom-'+i+'p'}
+      bottom i * 1%
+
+// bottom-percentage(0..100)

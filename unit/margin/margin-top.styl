@@ -1,0 +1,19 @@
+.margin-top-auto
+  margin-top auto
+
+.margin-top-inherit
+  margin-top inherit
+
+margin-top-pixel(range)
+  for i in range
+    .{'margin-top-'+i}
+      margin-top i * 1px
+
+margin-top-pixel(0..100)
+
+margin-top-percentage(range)
+  for i in range
+    .{'margin-top-'+i+'p'}
+      margin-top i * 1%
+
+// margin-top-percentage(0..100)

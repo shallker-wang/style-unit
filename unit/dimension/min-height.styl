@@ -1,0 +1,19 @@
+.min-height-auto
+  min-height auto
+
+.min-height-inherit
+  min-height inherit
+
+min-height-pixel(range)
+  for i in range
+    .{'min-height-'+i}
+      min-height i * 1px
+
+min-height-pixel(0..100)
+
+min-height-percentage(range)
+  for i in range
+    .{'min-height-'+i+'p'}
+      min-height i * 1%
+
+min-height-percentage(0..100)

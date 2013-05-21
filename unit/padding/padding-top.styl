@@ -1,0 +1,19 @@
+.padding-top-auto
+  padding-top auto
+
+.padding-top-inherit
+  padding-top inherit
+
+padding-top-pixel(range)
+  for i in range
+    .{'padding-top-'+i}
+      padding-top i * 1px
+
+padding-top-pixel(0..100)
+
+padding-top-percentage(range)
+  for i in range
+    .{'padding-top-'+i+'p'}
+      padding-top i * 1%
+
+// padding-top-percentage(0..100)

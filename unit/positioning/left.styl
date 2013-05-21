@@ -1,0 +1,19 @@
+.left-auto
+  left auto
+
+.left-inherit
+  left inherit
+
+left-pixel(range)
+  for i in range
+    .{'left-'+i}
+      left i * 1px
+
+left-pixel(0..100)
+
+left-percentage(range)
+  for i in range
+    .{'left-'+i+'p'}
+      left i * 1%
+
+// left-percentage(0..100)

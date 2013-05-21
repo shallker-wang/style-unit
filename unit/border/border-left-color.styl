@@ -1,0 +1,9 @@
+@import '../colors'
+
+border-left-color(colors)
+  for obj in colors
+    for ob in obj
+      .{'border-left-color-'+ob[0]}
+        border-left-color ob[1]
+
+border-left-color(colors)

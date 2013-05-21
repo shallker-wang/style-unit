@@ -1,0 +1,19 @@
+.letter-spacing-normal
+  letter-spacing normal
+
+.letter-spacing-inherit
+  letter-spacing inherit
+
+letter-spacing-pixel(range)
+  for i in range
+    .{'letter-spacing-'+i}
+      letter-spacing i * 1px
+
+letter-spacing-pixel(-50..50)
+
+// letter-spacing-percentage(range)
+//   for i in range
+//     .{'letter-spacing-'+i+'p'}
+//       letter-spacing i * 1%
+
+// letter-spacing-percentage(0..100)

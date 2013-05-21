@@ -1,0 +1,12 @@
+.line-height-normal
+  line-height normal
+
+.line-height-inherit
+  line-height inherit
+
+line-height-pixel(range)
+  for i in range
+    .{'line-height-'+i}
+      line-height i * 1px
+
+line-height-pixel(0..50)

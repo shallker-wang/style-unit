@@ -1,0 +1,9 @@
+@import '../colors'
+
+border-bottom-color(colors)
+  for obj in colors
+    for ob in obj
+      .{'border-bottom-color-'+ob[0]}
+        border-bottom-color ob[1]
+
+border-bottom-color(colors)

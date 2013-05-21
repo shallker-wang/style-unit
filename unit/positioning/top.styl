@@ -1,0 +1,19 @@
+.top-auto
+  top auto
+
+.top-inherit
+  top inherit
+
+top-pixel(range)
+  for i in range
+    .{'top-'+i}
+      top i * 1px
+
+top-pixel(0..100)
+
+top-percentage(range)
+  for i in range
+    .{'top-'+i+'p'}
+      top i * 1%
+
+// top-percentage(0..100)

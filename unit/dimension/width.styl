@@ -1,0 +1,19 @@
+.width-auto
+  width auto
+
+.width-inherit
+  width inherit
+
+width-pixel(range)
+  for i in range
+    .{'width-'+i}
+      width i * 1px
+
+width-pixel(0..100)
+
+width-percentage(range)
+  for i in range
+    .{'width-'+i+'p'}
+      width i * 1%
+
+width-percentage(0..100)

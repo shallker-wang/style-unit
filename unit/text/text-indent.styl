@@ -1,0 +1,9 @@
+.text-indent-inherit
+  text-indent inherit
+
+text-indent-pixel(range)
+  for i in range
+    .{'text-indent-'+i}
+      text-indent i * 1px
+
+text-indent-pixel(0..50)

@@ -1,0 +1,18 @@
+.border-top-width-thin
+  border-top-width thin
+
+.border-top-width-medium
+  border-top-width medium
+
+.border-top-width-thick
+  border-top-width thick
+
+.border-top-width-inherit
+  border-top-width inherit
+
+border-top-width-pixel(range)
+  for i in range
+    .{'border-top-width-'+i}
+      border-top-width i * 1px
+
+border-top-width-pixel(0..10)

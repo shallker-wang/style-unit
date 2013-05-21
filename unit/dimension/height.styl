@@ -1,0 +1,19 @@
+.height-auto
+  height auto
+
+.height-inherit
+  height inherit
+
+height-pixel(range)
+  for i in range
+    .{'height-'+i}
+      height i * 1px
+
+height-pixel(0..100)
+
+height-percentage(range)
+  for i in range
+    .{'height-'+i+'p'}
+      height i * 1%
+
+height-percentage(0..100)

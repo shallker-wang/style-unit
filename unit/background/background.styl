@@ -1,0 +1,9 @@
+@import '../colors'
+
+background(colors)
+  for obj in colors
+    for ob in obj
+      .{'background-'+ob[0]}
+        background ob[1]
+
+background(colors)

@@ -1,0 +1,19 @@
+.right-auto
+  right auto
+
+.right-inherit
+  right inherit
+
+right-pixel(range)
+  for i in range
+    .{'right-'+i}
+      right i * 1px
+
+right-pixel(0..100)
+
+right-percentage(range)
+  for i in range
+    .{'right-'+i+'p'}
+      right i * 1%
+
+// right-percentage(0..100)

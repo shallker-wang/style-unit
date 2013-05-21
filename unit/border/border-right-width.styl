@@ -1,0 +1,18 @@
+.border-right-width-thin
+  border-right-width thin
+
+.border-right-width-medium
+  border-right-width medium
+
+.border-right-width-thick
+  border-right-width thick
+
+.border-right-width-inherit
+  border-right-width inherit
+
+border-right-width-pixel(range)
+  for i in range
+    .{'border-right-width-'+i}
+      border-right-width i * 1px
+
+border-right-width-pixel(0..10)

@@ -1,0 +1,34 @@
+unit-em(name, value)
+  .{name+'-'+value+'em'}
+    {name} value * 1em
+
+unit-pixel(name, value)
+  .{name+'-'+value}
+    {name} value * 1px
+
+unit-percent(name, value)
+  .{name+'-'+value+'p'}
+    {name} value * 1%
+
+batch-em(name, range)
+  for i in range
+    unit-em(name, i)
+
+batch-pixel(name, range)
+  for i in range
+    unit-pixel(name, i)
+
+batch-percent(name, range)
+  for i in range
+    unit-percent(name, i)
+
+batch(name, range = -100..100)
+  // batch-em(name, range)
+  batch-pixel(name, range)
+  batch-percent(name, range)
+
+batch-negative(name)
+  batch(name, -100..-1)
+
+batch-positive(name)
+  batch(name, 0..100)

@@ -1,0 +1,19 @@
+.max-width-auto
+  max-width auto
+
+.max-width-inherit
+  max-width inherit
+
+max-width-pixel(range)
+  for i in range
+    .{'max-width-'+i}
+      max-width i * 1px
+
+max-width-pixel(0..100)
+
+max-width-percentage(range)
+  for i in range
+    .{'max-width-'+i+'p'}
+      max-width i * 1%
+
+max-width-percentage(0..100)

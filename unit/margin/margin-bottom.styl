@@ -1,0 +1,19 @@
+.margin-bottom-auto
+  margin-bottom auto
+
+.margin-bottom-inherit
+  margin-bottom inherit
+
+margin-bottom-pixel(range)
+  for i in range
+    .{'margin-bottom-'+i}
+      margin-bottom i * 1px
+
+margin-bottom-pixel(0..100)
+
+margin-bottom-percentage(range)
+  for i in range
+    .{'margin-bottom-'+i+'p'}
+      margin-bottom i * 1%
+
+// margin-bottom-percentage(0..100)

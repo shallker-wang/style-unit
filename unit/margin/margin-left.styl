@@ -1,0 +1,19 @@
+.margin-left-auto
+  margin-left auto
+
+.margin-left-inherit
+  margin-left inherit
+
+margin-left-pixel(range)
+  for i in range
+    .{'margin-left-'+i}
+      margin-left i * 1px
+
+margin-left-pixel(0..100)
+
+margin-left-percentage(range)
+  for i in range
+    .{'margin-left-'+i+'p'}
+      margin-left i * 1%
+
+// margin-left-percentage(0..100)

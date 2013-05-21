@@ -1,0 +1,19 @@
+.padding-left-auto
+  padding-left auto
+
+.padding-left-inherit
+  padding-left inherit
+
+padding-left-pixel(range)
+  for i in range
+    .{'padding-left-'+i}
+      padding-left i * 1px
+
+padding-left-pixel(0..100)
+
+padding-left-percentage(range)
+  for i in range
+    .{'padding-left-'+i+'p'}
+      padding-left i * 1%
+
+// padding-left-percentage(0..100)

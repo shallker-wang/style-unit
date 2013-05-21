@@ -1,0 +1,19 @@
+.max-height-auto
+  max-height auto
+
+.max-height-inherit
+  max-height inherit
+
+max-height-pixel(range)
+  for i in range
+    .{'max-height-'+i}
+      max-height i * 1px
+
+max-height-pixel(0..100)
+
+max-height-percentage(range)
+  for i in range
+    .{'max-height-'+i+'p'}
+      max-height i * 1%
+
+max-height-percentage(0..100)

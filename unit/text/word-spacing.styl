@@ -1,0 +1,12 @@
+.word-spacing-inherit
+  word-spacing inherit
+
+.word-spacing-normal
+  word-spacing normal
+
+word-spacing-pixel(range)
+  for i in range
+    .{'word-spacing-'+i}
+      word-spacing i * 1px
+
+word-spacing-pixel(0..50)
