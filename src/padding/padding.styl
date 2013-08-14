@@ -1,5 +1,9 @@
-.padding-0
-  padding 0
+padding-pixel(range)
+  for i in range
+    .{'padding-'+i}
+      padding i * 1px
+
+padding-pixel(0..100)
 
 .padding-auto
   padding auto
