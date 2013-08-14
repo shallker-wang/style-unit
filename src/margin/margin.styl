@@ -1,5 +1,9 @@
-.margin-0
-  margin 0
+margin-pixel(range)
+  for i in range
+    .{'margin-'+i}
+      margin i * 1px
+
+margin-pixel(0..100)
 
 .margin-auto
   margin auto
