@@ -1,4 +1,4 @@
-style-unit
+style-units
 ==========
 
 Style HTML with efficiency.
