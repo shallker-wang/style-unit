@@ -1,0 +1,13 @@
+{
+  "name": "style-units",
+  "repo": "shallker-wang/style-units",
+  "description": "Style HTML with efficiency.",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {},
+  "development": {},
+  "license": "MIT",
+  "styles": [
+    "style-units.min.css"
+  ]
+}
