@@ -8,6 +8,6 @@
   "development": {},
   "license": "MIT",
   "styles": [
-    "style-units.min.css"
+    "style-units.css"
   ]
 }
