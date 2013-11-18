@@ -1,0 +1,8 @@
+{
+  "compile": {
+    "stylus": {
+      "input": "./style-units.styl",
+      "output": "./"
+    }
+  }
+}
